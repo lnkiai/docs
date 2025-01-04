@@ -48,4 +48,4 @@ All workflows in this collection are **unlicensed**. Use, modify, and distribute
 
 ## Acknowledgements
 
-Special thanks to the Dify team for providing the amazing Dify platform ([dify.ai](https://www.google.com/url?sa=E\&source=gmail\&q=https://dify.ai)) that empowers the creation and sharing of these workflows. Gratitude also goes to the developers of Difyshare ([difyshare.com](https://www.google.com/url?sa=E\&source=gmail\&q=https://difyshare.com)) and Diflowy ([diflowy.greenerai.top](https://diflowy.greenerai.top)) for enabling the easy sharing and collaboration on Dify workflows.
+Special thanks to the Dify team for providing the amazing Dify platform ([dify.ai](https://tally.so/r/nWDRGk)) that empowers the creation and sharing of these workflows. Gratitude also goes to the developers of Difyshare ([difyshare.com](https://www.google.com/url?sa=E\&source=gmail\&q=https://difyshare.com)) and Diflowy ([diflowy.greenerai.top](https://diflowy.greenerai.top)) for enabling the easy sharing and collaboration on Dify workflows.
