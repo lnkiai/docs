@@ -58,14 +58,15 @@
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Workflows",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "workflows/aimode",
+        "workflows/markdown",
+        "workflows/code",
+        "workflows/images",
+        "workflows/settings",
+        "workflows/navigation",
+        "workflows/reusable-snippets"
       ]
     },
     {
