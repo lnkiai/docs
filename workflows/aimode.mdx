@@ -1,0 +1,113 @@
+---
+description: "Switch between AI personalities for a tailored experience."
+title: "AI Mode Switcher"
+---
+
+This is a versatile chat flow that allows users to seamlessly switch between various AI modes. It was recreated in Dify, inspired by feature modifications found in ChatGPT and Gemini models.
+
+<Info>
+  This application simulates feature modifications found in ChatGPT and Gemini models and was recreated using Dify. It draws particular inspiration from Gemini's Gem, using it as a reference to implement mode-switching functionality.
+</Info>
+
+### Key Features
+
+#### Mode Switching
+
+<Tabs>
+  <Tab title="Default">
+    Free conversation without any specific prompts. Ideal for casual chatting and brainstorming.
+  </Tab>
+
+  <Tab title="AI Task">
+    Supports task management and execution. Helps you stay organized and get things done efficiently.
+  </Tab>
+
+  <Tab title="AI M.T.">
+    Provides high-quality machine translation, primarily between Japanese and English. Focuses on accuracy and natural language flow.
+  </Tab>
+
+  <Tab title="AI Chat">
+    Enables character-based conversational modes. Provides a fun and interactive way to explore different personalities and scenarios.
+  </Tab>
+
+  <Tab title="AI Code">
+    Assists in generating and modifying code in various programming languages, including Python, JavaScript, and more. Offers helpful suggestions and error detection.
+  </Tab>
+</Tabs>
+
+<Note>
+  Modes can be selected via input or button clicks, and the selected mode remains active until explicitly changed.
+</Note>
+
+#### AI Model
+
+This application uses Gemini 1.5 Flash as the default LLM with the following optimized settings:
+
+| Setting            | Value |
+| ------------------ | ----- |
+| Memory Window Size | 10    |
+| Max Tokens         | 4096  |
+| Temperature        | 0.7   |
+
+<Info>
+  Users can switch to other LLMs, such as ChatGPT or Claude, if needed.
+</Info>
+
+#### Additional Features
+
+* Automatically retries up to three times in case of errors and displays an error message if unresolved.
+
+* Provides mode-change notifications and a user-friendly HTML button interface for quick adjustments.
+
+### How to Use
+
+#### Start a Chat
+
+Begin a conversation directly without entering any specific input.
+
+#### Specify a Mode
+
+Change the mode during a chat session through input or buttons. The selected mode remains active until modified.
+
+### Dify Version Requirements
+
+No specific requirements.
+
+### Developer Information
+
+#### Dependencies
+
+* Dify SDK
+
+* Google Gemini API
+
+#### Installation
+
+```bash
+# Clone the chat flow using the Dify CLI
+dify clone lnkiai/ai-mode-switcher
+
+# Install the necessary dependencies
+npm install
+```
+
+#### Running
+
+```bash
+# Run the chat flow in development mode
+dify dev
+```
+
+### Contributing
+
+Contributions to this project are welcome! To contribute:
+
+1. Download or import the desired workflow from Difyshare or Diflowy into your Dify environment.
+
+2. Provide feedback, including suggestions, bug reports, and feature requests, through \[this form]\(Contact form link).
+
+3. Requests for specific workflow development are also welcome.
+
+### License
+
+All workflows in this collection are **unlicensed**. Use, modify, and distribute them freely.
