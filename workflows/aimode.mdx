@@ -9,9 +9,9 @@ This is a versatile chat flow that allows users to seamlessly switch between var
   This application simulates feature modifications found in ChatGPT and Gemini models and was recreated using Dify. It draws particular inspiration from Gemini's Gem, using it as a reference to implement mode-switching functionality.
 </Info>
 
-### Key Features
+## Key Features
 
-#### Mode Switching
+### Mode Switching
 
 <Tabs>
   <Tab title="Default">
@@ -39,7 +39,7 @@ This is a versatile chat flow that allows users to seamlessly switch between var
   Modes can be selected via input or button clicks, and the selected mode remains active until explicitly changed.
 </Note>
 
-#### AI Model
+### AI Model
 
 This application uses Gemini 1.5 Flash as the default LLM with the following optimized settings:
 
@@ -53,7 +53,7 @@ This application uses Gemini 1.5 Flash as the default LLM with the following opt
   Users can switch to other LLMs, such as ChatGPT or Claude, if needed.
 </Info>
 
-#### Additional Features
+### Additional Features
 
 * Automatically retries up to three times in case of errors and displays an error message if unresolved.
 
@@ -61,11 +61,11 @@ This application uses Gemini 1.5 Flash as the default LLM with the following opt
 
 ### How to Use
 
-#### Start a Chat
+**Start a Chat**
 
 Begin a conversation directly without entering any specific input.
 
-#### Specify a Mode
+**Specify a Mode**
 
 Change the mode during a chat session through input or buttons. The selected mode remains active until modified.
 
@@ -75,13 +75,13 @@ No specific requirements.
 
 ### Developer Information
 
-#### Dependencies
+**Dependencies**
 
 * Dify SDK
 
 * Google Gemini API
 
-#### Installation
+**Installation**
 
 ```bash
 # Clone the chat flow using the Dify CLI
@@ -91,7 +91,7 @@ dify clone lnkiai/ai-mode-switcher
 npm install
 ```
 
-#### Running
+**Running**
 
 ```bash
 # Run the chat flow in development mode
